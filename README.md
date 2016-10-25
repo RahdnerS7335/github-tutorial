@@ -5,13 +5,13 @@
 ---
 ## Git vs. GitHub
 
-Git Is Software (**version control**) That Keeps "**Snapshots**" Or Pieces Of Code. Version Control Software Keeps Track Of Every Change To The Code (Snapshots) In A Database. 
+Git Is A Software (**version control**) That Keeps "**Snapshots**" Or Pieces Of Code. Version Control Software Keeps Track Of Every Change To The Code (Snapshots) In A Database. 
 
 
-GitHub Is An **Internet Server** That Holds Variety Of Git Projects. Github Provides Easy Access And Availabiltity To Your Code. Stores Your Projects Into A "Cloud" (Internet) For Which You Can Aceess From Home Or Any Device That Can Go On The Internet
+GitHub Is An **Internet Server** That Holds Variety Of Git Projects. Github Provides Easy Access And Availabiltity To Your Code. Stores Your Projects Into The "Cloud" (Internet) For Which You Can Access From Home Or Any Device That Can Go On The Internet.
 
 
-Difference Between both Git & Github Is That In Order To Access Github You Must Already Utilised Git And Doesnt **_Work Without Git_**
+The Difference Between both Git & Github Is That In Order To Access Github You Must Already Have Git And Github Doesn't **_Work Without Git_**
 
 ---
 ## Initial Setup 
