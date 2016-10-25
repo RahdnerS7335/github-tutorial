@@ -37,9 +37,9 @@ After You Have Initiliazed It; You Would Need To Go Into That File That You Are 
 You Are Done The File You Are Using Wouldnt
 Be "Added" To The Staging Area So It Can Be "Commited". 
 Added Files Would Be Added To The Remote Repository. You Would Need To Use The Command `git add .` or `git --all`
-After You Have Finished Changing Your File Than You Wiuld Need To Commit The File. The Git Command `git commit -m` Would Enable You To Commit The File To The Repository In Which You Can Push/Pull To External Repos. Or The Cloud
+After You Have Finished Changing Your File Than You Would Need To Commit The File. The Git Command `git commit -m` Would Enable You To Commit The File To The Repository In Which You Can Push/Pull To External Repos. Or The Cloud
 
 ---
 ## Workflow & Commands
 After You Get The Hang Of Basic "Git"; You Would Need An Workflow Or An System Of Checking To See Your Work Periodicaly. The Best Reccomended Flow Is Using `git status`,`git add .` `git commit` Than `git push`. The Command `git status` Allows You To See Filles That Have Changed Since Your Last Commit. This Commands Is Very Resourceful Because It Allows You To See Changes To Check If Your Previous File Worked . Next Would Be To Add The Files That You Have Edited. 
-`git add .` Would Allow You To Had The Change For It To Be Commited. `git conmit` Would Commit To The Staging Area. After Committing You Would Need To Push It Up To An External Repository (Github). 
+`git add .` Would Allow You To Had The Change For It To Be Commited. The Command`git conmit` Would Commit To The Staging Area. After Committing You Would Need To Push It Up To An External Repository (Github). 
