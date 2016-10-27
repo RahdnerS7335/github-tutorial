@@ -1,0 +1,133 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>GitHub-tutorial by RahdnerS7335</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-dark.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/respond.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!--[if lt IE 8]>
+    <link rel="stylesheet" href="stylesheets/ie.css">
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  </head>
+  <body>
+      <div id="header">
+        <nav>
+          <li class="fork"><a href="https://github.com/RahdnerS7335/github-tutorial">View On GitHub</a></li>
+          <li class="downloads"><a href="https://github.com/RahdnerS7335/github-tutorial/zipball/master">ZIP</a></li>
+          <li class="downloads"><a href="https://github.com/RahdnerS7335/github-tutorial/tarball/master">TAR</a></li>
+          <li class="title">DOWNLOADS</li>
+        </nav>
+      </div><!-- end header -->
+
+    <div class="wrapper">
+
+      <section>
+        <div id="title">
+          <h1>GitHub-tutorial</h1>
+          <p>GITting Used To It</p>
+          <hr>
+          <span class="credits left">Project maintained by <a href="https://github.com/RahdnerS7335">RahdnerS7335</a></span>
+          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
+        </div>
+
+        <h1>
+<a id="github-tutorial" class="anchor" href="#github-tutorial" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>GitHub Tutorial</h1>
+
+<h1>
+<a id="by-rahdner-savain" class="anchor" href="#by-rahdner-savain" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><em>by <strong>Rahdner Savain</strong></em>
+</h1>
+
+<hr>
+
+<h2>
+<a id="git-vs-github" class="anchor" href="#git-vs-github" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Git vs. GitHub</h2>
+
+<p>Git Is Software (<strong>version control</strong>) That Keeps "<strong>Snapshots</strong>" Or Pieces Of Code. Version Control Software Keeps Track Of Every Change To The Code (Snapshots) In A Database. </p>
+
+<p>GitHub Is An <strong>Internet Server</strong> That Holds Variety Of Git Projects. Github Provides Easy Access And Availabiltity To Your Code. Stores Your Projects Into A "Cloud" (Internet) For Which You Can Aceess From Home Or Any Device That Can Go On The Internet</p>
+
+<p>Difference Between both Git &amp; Github Is That In Order To Access Github You Must Already Utilised Git And Doesnt <strong><em>Work Without Git</em></strong></p>
+
+<hr>
+
+<h2>
+<a id="initial-setup" class="anchor" href="#initial-setup" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Initial Setup</h2>
+
+<h5>
+<a id="making-a-gihub-account-is-easy" class="anchor" href="#making-a-gihub-account-is-easy" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Making A Gihub Account Is Easy.</h5>
+
+<ol>
+<li>First you go to <a href="github.com">Github.com</a><br>
+</li>
+<li>Then you set a username and password </li>
+<li>Check your email for verfication from github<br>
+</li>
+<li>Open and click verify!<br>
+</li>
+<li>Then go back to github.com and click on "Free Account"</li>
+<li>To finalize making your github account click on "Finish Sign Up"</li>
+<li>Click on your profile icon on the top right</li>
+<li>Then click on settings</li>
+<li>Go to the left sidebar and click on "SSH and GPG keys"</li>
+<li>Click on "New SSH key"</li>
+<li>Make the title <em>cloud9</em>
+</li>
+<li>Now go back to cloud9</li>
+<li>Click on the gear icon in the top right corner</li>
+<li>Click on "SSH Keys"</li>
+<li>Copy the SSH Key given</li>
+<li>Then go back to github.com and paste the SSH key</li>
+<li>Then add the SSH Key</li>
+<li>Now go back to cloud9 again and open "github-learning IDE"</li>
+<li>Then type in <code>ssh -T git@github.com</code>
+</li>
+<li>Finally a message should come up that say that it worked but you dont have shell access</li>
+</ol>
+
+<hr>
+
+<h2>
+<a id="repository-setup" class="anchor" href="#repository-setup" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Repository Setup</h2>
+
+<p>This Is Where We Begin The Gritty Part Of Our The Coding. Making Your First Repository!!!</p>
+
+<ul>
+<li>Repository Setup Is Easy If You Already Completed Steps Of The Initial Setup On Github. </li>
+<li>All You Would Need Is To Do Is Curently Be In Your Workspace And Create An Directory (Folder) And Initialize It.</li>
+<li>To Initialize, You Need To Go Into That Folder And Type In The Command <code>git init</code>.</li>
+<li>This Git Command Would Allow You To Use (Initialize) For Version Control/Git. </li>
+<li>This Would On Be Used Once Throughout The Whole Workflow In This Repository.</li>
+<li>After You Have Initiliazed It; You Would Need To Go Into That File That You Are Working On Currently On.</li>
+<li>Once You Are Done The File You Are Using Wouldnt
+Be "Added" To The Staging Area So It Can Be "Commited". Added Files Would Be Added * To The Remote Repository. You Would Need To Use The Command <code>git add .</code> or <code>git --all</code>
+</li>
+<li>After You Have Finished Changing Your File Than You Would Need To Commit The File. The Git Command <code>git commit -m</code> Would Enable You To Commit The File To The Repository In Which You Can Push/Pull To External Repos. Or The Cloud</li>
+</ul>
+
+<hr>
+
+<h2>
+<a id="workflow--commands" class="anchor" href="#workflow--commands" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Workflow &amp; Commands</h2>
+
+<ul>
+<li>After You Get The Hang Of Basic "Git"; You Would Need An Workflow Or An System Of Checking To See Your Work Periodicaly.</li>
+<li>The Best Reccomended Flow Is Using <code>git status</code>,<code>git add .</code> <code>git commit</code> Than <code>git push</code>. </li>
+<li>The Command <code>git status</code> Allows You To See Filles That Have Changed Since Your Last Commit. </li>
+<li>This Commands Is Very Resourceful Because It Allows You To See Changes To Check If Your Previous File Worked . Next Would Be To Add The Files That You Have Edited. 
+<code>git add .</code> Would Allow You To Had The Change For It To Be Commited. The Command<code>git conmit</code> Would Commit To The Staging Area. After Committing You Would Need To Push It Up To An External Repository (Github). </li>
+</ul>
+      </section>
+
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    
+  </body>
+</html>
